@@ -1,5 +1,6 @@
 import { Work_Sans } from "next/font/google";
 import "./globals.css";
+import 'easymde/dist/easymde.min.css'; // Import EasyMDE CSS   
 
 // Load Work Sans from Google Fonts
 const workSans = Work_Sans({

@@ -8,7 +8,7 @@ const config = {
       "./sanity/**/*.{js,ts,jsx,tsx,mdx}",
       "./src/app/globals.css", // Add this line
     ],
-    
+
     theme: {
       extend: {
         screens: {
@@ -32,6 +32,15 @@ const config = {
             DEFAULT: "#FFFFFF",
           },
         },
+
+        backgroundColor: {
+            primary: {
+                "100": "#ff6347",
+                DEFAULT: "#EE2B69",
+            },
+        },
+
+
         fontFamily: {
           "work-sans": ["var(--font-work-sans)"],
         },
